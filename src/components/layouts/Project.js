@@ -4,7 +4,7 @@ import Detail from "./Detail";
 import { Modal, Carousel } from "antd";
 import { LogoutOutlined, CloseOutlined } from "@ant-design/icons";
 import "../../styles/modal.css";
-const Project = ({ id, name, url, skills, description, link }) => {
+const Project = ({ id, name, url, skills, description, link, twoWords }) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   const showModal = () => {
@@ -30,22 +30,17 @@ const Project = ({ id, name, url, skills, description, link }) => {
         </div>
         <div>
           <div>
-            <h2>{name}</h2>
+            {link ? <a href={link} target="_blank">
+              <h2>{name}</h2>
+            </a> : 
+              <h2>{name}</h2>
+            }
           </div>
           <div
-            title={url}
-            className="project-name"
-            rel="noopener noreferrer"
-            target="_blank"
-            href={link}
           >
-            {link && (
               <h3>
-                <a href={link} target="_blank">
-                  {link}
-                </a>
+                {twoWords}
               </h3>
-            )}
           </div>
         </div>
       </div>

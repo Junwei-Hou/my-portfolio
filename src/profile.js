@@ -112,6 +112,7 @@ const projects = [
       "https://junweioss.oss-rg-china-mainland.aliyuncs.com/video/becool_video.mp4",
     description:
       "BeCool is a social app utilizing AI-generated image technology. Users can upload photos or take pictures, which are then processed through a stable diffusion interface to generate images. After publishing, these images can be viewed, liked, commented on, and shared by other users. Furthermore, users can follow each other and become friends, enabling deeper interactions such as chatting. <br>Recently, new features have been developed, such as the 'Pair' function, which allows users' photos to be merged together, combining images taken in different locations into one scene.",
+    twoWords: 'AI Social',
     width: "50%",
     applications: "App WX-miniProgram",
     client: "In-house project",
@@ -119,7 +120,7 @@ const projects = [
     frontend: "Uniapp",
     backend: "Php Symphony",
     database: "PostgreSQL",
-    link: "www.example.com",
+    // link: "www.example.com",
     responsibility:"Responsible for leading a front-end team (3 members), coordinating with backend and product requirements, and handling challenging issues in front-end development. Admin console interface in Frontend",
     keyChallenges: [
       "Canvas Photo Merging:Implementing the algorithm to seamlessly merge dual-person photos using the Canvas element.",
@@ -144,6 +145,7 @@ const projects = [
       "https://junweioss.oss-rg-china-mainland.aliyuncs.com/image/pacs/6.jpg",
     ],
     direction: "horizontal",
+    twoWords: "Plasma Collection",
     description:"This is a system designed to provide blood collection functionality for CSL Plasma in the United States. It includes blood collection procedures, registration and appointment scheduling for blood collection personnel, fee settlement, equipment allocation, number calling, and other services. ",
     applications: "Admin System",
     client: "CLS Plasma",
@@ -170,6 +172,7 @@ const projects = [
       "https://junweioss.oss-rg-china-mainland.aliyuncs.com/image/metazoom/1.jpg",
     ],
     direction: "horizontal",
+    twoWords: "Virtual Campus",
     videoUrl:
       "https://junweioss.oss-rg-china-mainland.aliyuncs.com/video/metazoom.mp4",
     description:
@@ -199,6 +202,7 @@ const projects = [
       "https://junweioss.oss-rg-china-mainland.aliyuncs.com/image/puzzle_pixi_cover.png",
     hasVideo: true,
     direction: "horizontal",
+    twoWords: "Puzzle Game",
     videoUrl:
       "https://junweioss.oss-rg-china-mainland.aliyuncs.com/video/Puzzle.mp4",
     description:
@@ -225,6 +229,7 @@ const projects = [
       "https://junweioss.oss-rg-china-mainland.aliyuncs.com/image/lock_down_cover1.jpeg",
     hasVideo: false,
     direction: "horizontal",
+    twoWords: "Game VR Data",
     carousel: [
       "https://junweioss.oss-rg-china-mainland.aliyuncs.com/image/lockdown_admin_list3.jpg",
       "https://junweioss.oss-rg-china-mainland.aliyuncs.com/image/lockdown_admin_list2.jpg",
@@ -254,6 +259,7 @@ const projects = [
     posterImgUrl:
       "https://junweioss.oss-rg-china-mainland.aliyuncs.com/image/foodcourt_cover.jpg",
     direction: "vertical",
+    twoWords: "Food Court",
     hasVideo: true,
     carousel: [
       "https://junweioss.oss-rg-china-mainland.aliyuncs.com/image/foodcourt/1.jpg",
@@ -289,6 +295,7 @@ const projects = [
       "https://junweioss.oss-rg-china-mainland.aliyuncs.com/image/HIS_cover.jpg",
     hasVideo: false,
     direction: "horizontal",
+    twoWords: "Hospital Management",
     carousel: [
       "https://junweioss.oss-rg-china-mainland.aliyuncs.com/image/his2.jpg",
       "https://junweioss.oss-rg-china-mainland.aliyuncs.com/image/his3.jpg",
@@ -323,6 +330,7 @@ const projects = [
       "https://junweioss.oss-rg-china-mainland.aliyuncs.com/image/nhibs_cover.jpg",
     hasVideo: true,
     direction: "horizontal",
+    twoWords: "Medical Dashboard",
     carousel: [
       "https://junweioss.oss-rg-china-mainland.aliyuncs.com/image/nhibs/1.jpg",
       "https://junweioss.oss-rg-china-mainland.aliyuncs.com/image/nhibs/2.jpg",

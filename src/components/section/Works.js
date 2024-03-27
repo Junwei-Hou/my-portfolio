@@ -8,6 +8,7 @@ import {
 } from "../../profile";
 
 const Works = () => {
+  console.log('projects',projects)
   return (
     <>
       <div data-aos="zoom-in-up" data-aos-once="true" className="third">
@@ -36,7 +37,7 @@ const Works = () => {
                 name={x.name}
                 skills={x.skills}
                 link={x.link}
-
+                twoWords={x.twoWords}
               />
             ))}
         </div>
