@@ -1,0 +1,52 @@
+
+/* Add your profile image here */
+.Photo{
+    background-image: url('https://junweioss.oss-rg-china-mainland.aliyuncs.com/image/me.jpg');
+}
+/* Projects Photo */
+.project1{
+    background-image: url('https://junweioss.oss-rg-china-mainland.aliyuncs.com/image/beool_cover.jpg');
+    cursor: pointer;    
+}
+
+.project2{
+    background-image: url('https://junweioss.oss-rg-china-mainland.aliyuncs.com/image/pacs/2.jpg');
+    cursor: pointer; 
+}
+.project3{
+    background-image: url('https://junweioss.oss-rg-china-mainland.aliyuncs.com/image/meta_zoom_cover.jpg');
+    cursor: pointer; 
+}
+.project4{
+    background-image: url('https://junweioss.oss-rg-china-mainland.aliyuncs.com/image/puzzle_pixi_cover.png');
+    cursor: pointer;
+}
+.project5{
+    background-image: url('https://junweioss.oss-rg-china-mainland.aliyuncs.com/image/lock_down_cover1.jpeg');
+    cursor: pointer;
+}
+.project6{
+    background-image: url('https://junweioss.oss-rg-china-mainland.aliyuncs.com/image/foodcourt_cover.jpg');
+    cursor: pointer;
+}
+.project7{
+    background-image: url('https://junweioss.oss-rg-china-mainland.aliyuncs.com/image/HIS_cover.jpg');
+    cursor: pointer;
+}
+.project8{
+    background-image: url('https://junweioss.oss-rg-china-mainland.aliyuncs.com/image/nhibs_cover.jpg');
+    cursor: pointer;
+}
+/* Miscelaneous Activities photo */
+.misc1{
+    background-image: url('https://via.placeholder.com/400x600.png?text=Miscellaneous+one');
+    cursor: pointer;
+}
+.misc2{
+    background-image: url('https://via.placeholder.com/400x600.png?text=Miscellaneous+two');
+    cursor: pointer;
+}
+.misc3{
+    background-image: url('https://via.placeholder.com/400x600.png?text=Miscellaneous+three');
+    cursor: pointer;
+}

@@ -1,0 +1,18 @@
+.modalStyle {
+  width: 100%;
+  /* height: 100%; */
+}
+
+.modalStyle .ant-modal-content {
+  background-color: transparent;
+  width: 100%;
+}
+.modalStyle .ant-modal-close {
+  display: none;
+}
+
+@media (max-width: 800px) {
+    .modalStyle .ant-modal-content {
+        padding:0;
+     }
+}
