@@ -1,0 +1,1 @@
+deploy : npm run deploy | not sudo npm run deploy   because sudo will change the direction of the command 

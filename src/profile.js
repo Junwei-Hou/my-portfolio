@@ -120,7 +120,7 @@ const projects = [
     frontend: "Uniapp",
     backend: "Php Symphony",
     database: "PostgreSQL",
-    // link: "www.example.com",
+    link: "https://aibecool.cn/",
     responsibility:"Responsible for leading a front-end team (3 members), coordinating with backend and product requirements, and handling challenging issues in front-end development. Admin console interface in Frontend",
     keyChallenges: [
       "Canvas Photo Merging:Implementing the algorithm to seamlessly merge dual-person photos using the Canvas element.",
