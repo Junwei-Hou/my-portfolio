@@ -85,7 +85,7 @@ const skillsBar = [
 // Edit your projects, its name, your framework used to make it, and the url.
 // You can omit freely anything if you dont have it
 // To Add a Project, copy any one below and paste it after the last comma and increment the id's project number
-const section3Title = "Main Projects";
+const section3Title = "Company Projects";
 const projects = [
   {
     // Add image in './styles/images.css' in #project1
@@ -112,7 +112,7 @@ const projects = [
       "https://junweioss.oss-rg-china-mainland.aliyuncs.com/video/becool_video.mp4",
     description:
       "BeCool is a social app utilizing AI-generated image technology. Users can upload photos or take pictures, which are then processed through a stable diffusion interface to generate images. After publishing, these images can be viewed, liked, commented on, and shared by other users. Furthermore, users can follow each other and become friends, enabling deeper interactions such as chatting. <br>Recently, new features have been developed, such as the 'Pair' function, which allows users' photos to be merged together, combining images taken in different locations into one scene.",
-    twoWords: 'AI Social',
+    twoWords: "AI Social",
     width: "50%",
     applications: "App WX-miniProgram",
     client: "In-house project",
@@ -121,12 +121,13 @@ const projects = [
     backend: "Php Symphony",
     database: "PostgreSQL",
     link: "https://aibecool.cn/",
-    responsibility:"Responsible for leading a front-end team (3 members), coordinating with backend and product requirements, and handling challenging issues in front-end development. Admin console interface in Frontend",
+    responsibility:
+      "Responsible for leading a front-end team (3 members), coordinating with backend and product requirements, and handling challenging issues in front-end development. Admin console interface in Frontend",
     keyChallenges: [
       "Canvas Photo Merging:Implementing the algorithm to seamlessly merge dual-person photos using the Canvas element.",
       "CSS Functionality for Photo Dragging and Visibility:Creating functionality in CSS for dragging and toggling the visibility of front and back photos, ensuring a smooth user experience.",
       "Encapsulate common components and methods to ensure a concise and consistent code style across the team's development efforts.",
-      "Deploying Android and iOS applications for production."
+      "Deploying Android and iOS applications for production.",
     ],
   },
   {
@@ -146,7 +147,8 @@ const projects = [
     ],
     direction: "horizontal",
     twoWords: "Plasma Collection",
-    description:"This is a system designed to provide blood collection functionality for CSL Plasma in the United States. It includes blood collection procedures, registration and appointment scheduling for blood collection personnel, fee settlement, equipment allocation, number calling, and other services. ",
+    description:
+      "This is a system designed to provide blood collection functionality for CSL Plasma in the United States. It includes blood collection procedures, registration and appointment scheduling for blood collection personnel, fee settlement, equipment allocation, number calling, and other services. ",
     applications: "Admin System",
     client: "CLS Plasma",
     position: "Front-end Developer",
@@ -154,10 +156,8 @@ const projects = [
     backend: "Node.js",
     database: "Mysql",
     link: "https://www.cslplasma.com/",
-    keyChallenges: [
-      "Complex blood collection-related business logic.",
-    ],
-    responsibility: 'Admin console interface'
+    keyChallenges: ["Complex blood collection-related business logic."],
+    responsibility: "Admin console interface",
   },
   {
     // Add image in './styles/images.css' in #project2
@@ -190,39 +190,15 @@ const projects = [
       "The design of database table.",
       "Alibaba Cloud ECS service packaging and deployment process: Object Storage Service (OSS), NGINX reverse proxy, Linux operations.",
     ],
-    codeReview: 'https://github.com/Junwei-Hou/work-code/blob/main/handleRoomService.ts',
-    responsibility: 'Database Design, RestfulAPI Design, Business logic in backend, Admin console interface in Frontend'
+    codeReview:
+      "https://github.com/Junwei-Hou/work-code/blob/main/handleRoomService.ts",
+    responsibility:
+      "Database Design, RestfulAPI Design, Business logic in backend, Admin console interface in Frontend",
   },
-  {
-    // Add image in './styles/images.css' in #project3
-    id: "project4",
-    name: "Puzzle Pixi",
-    framework: ["HTML CSS JS"],
-    posterImgUrl:
-      "https://junweioss.oss-rg-china-mainland.aliyuncs.com/image/puzzle_pixi_cover.png",
-    hasVideo: true,
-    direction: "horizontal",
-    twoWords: "Puzzle Game",
-    videoUrl:
-      "https://junweioss.oss-rg-china-mainland.aliyuncs.com/video/Puzzle.mp4",
-    description:
-      "This is a jigsaw puzzle game create for Audi Company. Embedding this game into their WeChat Mini Program.",
-    applications: "WX-miniProgram",
-    client: "Audi",
-    position: "Front-end Developer",
-    frontend: "WX-miniProgram",
-    backend: "JAVA",
-    database: "MySQL",
-    link: "",
-    keyChallenges: [
-      'Allocating the number of puzzle pieces based on different difficulty levels, eg: (5*4), (4*3), and determining the coordinates of each puzzle piece.',
-      'Jigsaw puzzle algorithm: It includes calculating the coordinates of the puzzle, determining whether the puzzle has moved to the correct position, and implementing the "sticky effect" when releasing the puzzle drag.',
-    ],
-    responsibility: 'Frontend interface, Jigsaw puzzle algorithm for backend'
-  },
+
   {
     // Add image in './styles/images.css' in #project4
-    id: "project5",
+    id: "project4",
     name: "LockDown Admin System",
     framework: ["HTML CSS JS"],
     posterImgUrl:
@@ -249,11 +225,12 @@ const projects = [
     keyChallenges: [
       "Backend utilizes algorithms to compute game data and VR parameter data.",
     ],
-    responsibility: 'Database Design, RestfulAPI Design, Business logic in backend, Admin console interface in Frontend'
+    responsibility:
+      "Database Design, RestfulAPI Design, Business logic in backend, Admin console interface in Frontend",
   },
   {
     // Add image in './styles/images.css' in #project5
-    id: "project6",
+    id: "project5",
     name: "Food Court Simulator",
     framework: ["HTML CSS JS"],
     posterImgUrl:
@@ -284,7 +261,37 @@ const projects = [
     keyChallenges: [
       "Built-in chatGpt api, utilizing long connections, makes conversations between players and NPCs more random.",
     ],
-    responsibility: 'Implementing backend business logic, Admin console interface in Frontend'
+    responsibility:
+      "Implementing backend business logic, Admin console interface in Frontend",
+  },
+  {
+    // Add image in './styles/images.css' in #project5
+    id: "project6",
+    name: "Escape Room",
+    framework: ["wordpress"],
+    posterImgUrl:
+      "https://junweioss.oss-rg-china-mainland.aliyuncs.com/image/official_web/official_website_cover.png",
+    direction: "horizontal",
+    twoWords: "Official Website",
+    hasVideo: false,
+    carousel: [
+      "https://junweioss.oss-rg-china-mainland.aliyuncs.com/image/official_web/official_website_cover_1.jpg",
+      "https://junweioss.oss-rg-china-mainland.aliyuncs.com/image/official_web/official_website_cover_2.jpg",
+      "https://junweioss.oss-rg-china-mainland.aliyuncs.com/image/official_web/official_website_cover_3.jpg",
+    ],
+    // videoUrl:
+    // "https://junweioss.oss-rg-china-mainland.aliyuncs.com/video/foodcourt.mp4",
+    description:
+      "The Escape Room Game Company's official website features an introduction to their game content and contact information. The booking function is embedded within the site.",
+    applications: "Website",
+    client: "Escape Website Artist",
+    position: "Front end Developer",
+    link: "https://theescapeartist.sg/",
+    keyChallenges: [
+      "Migrate WordPress to the company's own server, configure the LNMP environment, set up SSL and DNS resolution.",
+      "Built-in booking function",
+    ],
+    responsibility: "From server setup to SSL certificate Configuration",
   },
   {
     // Add image in './styles/images.css' in #project6
@@ -319,7 +326,8 @@ const projects = [
       "Lodop printing feature, packaging styles by writing native frontend components.",
       "Complex and tailored to hospital system business logic.",
     ],
-    responsibility: 'Frontend interface, including basic data, fee settlement and nurse workstations'
+    responsibility:
+      "Frontend interface, including basic data, fee settlement and nurse workstations",
   },
   {
     // Add image in './styles/images.css' in #project6
@@ -350,32 +358,57 @@ const projects = [
     database: "MySQL",
     link: "",
     keyChallenges: ["ECharts table and graph visualization."],
-    responsibility: 'Frontend interface'
+    responsibility: "Frontend interface",
   },
 ];
 // Edit your Miscellaneous Activities, its name and the url.
 // You can omit freely anything if you dont have it
 // To Add a Activity, copy any one below and paste it after the last comma and increment the id's Miscellaneous number
-const section4Title = "Miscellaneous";
+const section4Title = "Independent Projects";
 const miscellaneous = [
   {
     // Add image in './styles/images.css' in #misc1
-    id: "misc1",
-    name: "Miscellaneous 1",
-    url: "https://github.com/",
+    id: "inp1",
+    name: "AI_Jigsaw",
+    link: "https://jun.mrlcn.com/",
+    framework: ["React", "Nodejs"],
+    posterImgUrl:
+      "https://junweioss.oss-rg-china-mainland.aliyuncs.com/image/ai-jigsaw/WechatIMG598.jpg",
+    twoWords: "AI Game",
+    direction: "horizontal",
+    carousel: [
+      "https://junweioss.oss-rg-china-mainland.aliyuncs.com/image/ai-jigsaw/66.jpg",
+      "https://junweioss.oss-rg-china-mainland.aliyuncs.com/image/ai-jigsaw/55.jpg",
+      "https://junweioss.oss-rg-china-mainland.aliyuncs.com/image/ai-jigsaw/44.jpg",
+      "https://junweioss.oss-rg-china-mainland.aliyuncs.com/image/ai-jigsaw/33.jpg",
+      "https://junweioss.oss-rg-china-mainland.aliyuncs.com/image/ai-jigsaw/WechatIMG598.jpg",
+      "https://junweioss.oss-rg-china-mainland.aliyuncs.com/image/ai-jigsaw/22.jpg",
+    ],
+    description:
+      "This is my own full-stack project, an AI-based game. Users can upload a photo, then use AI to generate a new photo. They can then use the generated photo to play a jigsaw puzzle. Once they complete the puzzle, they can reveal the original photo. Afterward, they can send it to their friends as a surprise. ",
+    applications: "Web",
+    client: "In-house project",
+    position: "Full Stack Developer",
+    frontend: "React",
+    backend: "Node.js",
+    database: "Postgres",
+    devops: "docker",
+    github:"https://github.com/Junwei-Hou/aipixi.git",
+    keyChallenges: ["Docker Learning", "The development of the jigsaw puzzle code"],
+    responsibility: "Responsible for the entire project, including UI design, functionality, front-end and back-end code development, as well as server and domain configuration.",
   },
-  {
-    // Add image in './styles/images.css' in #misc2
-    id: "misc2",
-    name: "Miscellaneous 2",
-    url: "https://github.com/",
-  },
-  {
-    // Add image in './styles/images.css' in #misc3
-    id: "misc3",
-    name: "Miscellaneous 3",
-    url: "https://github.com/",
-  },
+  // {
+  //   // Add image in './styles/images.css' in #misc2
+  //   id: "misc2",
+  //   name: "Miscellaneous 2",
+  //   url: "https://github.com/",
+  // },
+  // {
+  //   // Add image in './styles/images.css' in #misc3
+  //   id: "misc3",
+  //   name: "Miscellaneous 3",
+  //   url: "https://github.com/",
+  // },
 ];
 // Contact form text, and Formspree link(to send a submit contact through their API as in contact.js)
 // To get your own jotform link, go to https://formspree.io/

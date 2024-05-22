@@ -53,7 +53,7 @@ const Project = ({ id, name, url, skills, description, link, twoWords }) => {
         className="modalStyle"
         // closeIcon={<LogoutOutlined />}
         maskStyle={{ backgroundColor: "rgba(0, 0, 0, 0.95)" }}
-        style={{ maxWidth: "100vw", paddingLeft: "0", marginLeft: "0" }}
+        style={{ maxWidth: "100vw", paddingLeft: "0", marginLeft: "0", marginTop: "100px" }}
       >
         <div className="header-right" onClick={handleCancel}>
           <CloseOutlined style={{ fontSize: "40px" }} />
