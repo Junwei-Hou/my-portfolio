@@ -395,6 +395,8 @@ const miscellaneous = [
     devops: "docker",
     github:"https://github.com/Junwei-Hou/aipixi.git",
     keyChallenges: ["Docker Learning", "The development of the jigsaw puzzle code"],
+    codeReview:
+    "https://github.com/Junwei-Hou/aipixi",
     responsibility: "Responsible for the entire project, including UI design, functionality, front-end and back-end code development, as well as server and domain configuration.",
   },
   // {

@@ -9,11 +9,8 @@ import {
 import "../../styles/carousel.css";
 
 const Detail = ({ id, name, url, framework, link }) => {
-  console.log('---projects---',projects)
-  console.log('---miscellaneous---',miscellaneous)
 
   const projectList = [...projects,...miscellaneous]
-  console.log('---projectList---',projectList)
 
   let info = projectList.find((item) => item.id === id);
 
