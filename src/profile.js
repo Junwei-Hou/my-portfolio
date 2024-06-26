@@ -90,6 +90,39 @@ const projects = [
   {
     // Add image in './styles/images.css' in #project1
     id: "project1",
+    name: "Piatto",
+    framework: ["React Native"],
+    posterImgUrl:
+      "https://junweioss.oss-rg-china-mainland.aliyuncs.com/image/piatto/cover.jpg",
+    hasVideo: false,
+    direction: "horizontal",
+    carousel: [
+      "https://junweioss.oss-rg-china-mainland.aliyuncs.com/image/piatto/cover.jpg",
+      "https://junweioss.oss-rg-china-mainland.aliyuncs.com/image/piatto/piatto_1.jpg",
+      "https://junweioss.oss-rg-china-mainland.aliyuncs.com/image/piatto/piatto_2.jpg",
+    ],
+    description:
+      "Piatto is on a mission to make hospitality accessible to everyone! Founded by a wheelchair using coffee lover, Piatto plans to use it's innovative platform to allow everyone to easy find, buy and enjoy their favourites! Allowing ALL people, of ALL persuasions, to ENGAGE with ALL hospitality venues, whether they are accessible or not!",
+    twoWords: "Hospitality Web",
+    width: "50%",
+    applications: "Web App",
+    client: "In-house project",
+    position: "Full Stack Developer",
+    frontend: "React Native",
+    backend: "Nodejs",
+    database: "Firebase",
+    link: "https://piatto.com.au/",
+    responsibility:
+      "This is a contract remote role for a RN, NodeJs, Firebase Developer to work with a code base held in Azure DevOps. I am responsible for daily development tasks, including coding, testing, and debugging of the applications. I also collaborate with cross-functional teams to design, develop, and deploy software solutions and ensure the scalability and performance of the applications.",
+    keyChallenges: [
+      "Connect with Google My Business Apis",
+      "Connect with stripe Apis",
+      "Firebase"
+    ],
+  },
+  {
+    // Add image in './styles/images.css' in #project1
+    id: "project2",
     name: "BeCool",
     framework: ["UniApp"],
     posterImgUrl:
@@ -132,7 +165,7 @@ const projects = [
   },
   {
     // Add image in './styles/images.css' in #project2
-    id: "project2",
+    id: "project3",
     name: "PAcS",
     framework: ["REACT NODEJS NEST"],
     posterImgUrl:
@@ -161,7 +194,7 @@ const projects = [
   },
   {
     // Add image in './styles/images.css' in #project2
-    id: "project3",
+    id: "project4",
     name: "META ZOOM",
     framework: ["REACT NODEJS NEST"],
     posterImgUrl:
@@ -198,7 +231,7 @@ const projects = [
 
   {
     // Add image in './styles/images.css' in #project4
-    id: "project4",
+    id: "project5",
     name: "LockDown Admin System",
     framework: ["HTML CSS JS"],
     posterImgUrl:
@@ -230,7 +263,7 @@ const projects = [
   },
   {
     // Add image in './styles/images.css' in #project5
-    id: "project5",
+    id: "project6",
     name: "Food Court Simulator",
     framework: ["HTML CSS JS"],
     posterImgUrl:
@@ -266,7 +299,7 @@ const projects = [
   },
   {
     // Add image in './styles/images.css' in #project5
-    id: "project6",
+    id: "project7",
     name: "Escape Room",
     framework: ["wordpress"],
     posterImgUrl:
@@ -295,7 +328,7 @@ const projects = [
   },
   {
     // Add image in './styles/images.css' in #project6
-    id: "project7",
+    id: "project8",
     name: "Hospital Information System",
     framework: ["HTML CSS JS"],
     posterImgUrl:
@@ -331,7 +364,7 @@ const projects = [
   },
   {
     // Add image in './styles/images.css' in #project6
-    id: "project8",
+    id: "project9",
     name: "National Healthcare Information Big Screen",
     framework: ["HTML CSS JS"],
     posterImgUrl:
